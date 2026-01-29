@@ -66,7 +66,7 @@ export function Contact() {
 
             <div className="space-y-4">
               <a 
-                href="mailto:rafael@email.com"
+                href="mailto:rafaelkefren@gmail.com"
                 className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary/70 transition-colors"
               >
                 <div className="p-3 rounded-lg bg-primary/10">
@@ -74,7 +74,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-sm text-muted-foreground">rafael@email.com</p>
+                  <p className="text-sm text-muted-foreground">rafaelkefren@gmail.com</p>
                 </div>
               </a>
 
@@ -94,7 +94,7 @@ export function Contact() {
               </a>
 
               <a 
-                href="https://linkedin.com/in/rafael-oliveira"
+                href="https://www.linkedin.com/in/rafael-oliveira-01188829a"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary/70 transition-colors"
@@ -104,7 +104,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">LinkedIn</p>
-                  <p className="text-sm text-muted-foreground">linkedin.com/in/rafael-oliveira</p>
+                  <p className="text-sm text-muted-foreground">linkedin.com/in/rafael-oliveira-01188829a</p>
                 </div>
               </a>
             </div>
