@@ -1,11 +1,25 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
     <section className="min-h-screen flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 relative">
       <div className="max-w-4xl mx-auto text-center">
+        {/* Profile Photo */}
+        <div className="mb-8 flex justify-center">
+          <div className="relative w-40 h-40 sm:w-48 sm:h-48 rounded-full overflow-hidden ring-4 ring-primary/20 ring-offset-4 ring-offset-background">
+            <Image
+              src="/profile.jpg"
+              alt="Rafael Oliveira - Software Engineer"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+        </div>
+
         <p className="text-primary font-medium mb-4 text-lg">
           Software Engineer & Architect
         </p>
