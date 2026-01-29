@@ -65,8 +65,8 @@ export function Contact() {
             </div>
 
             <div className="space-y-4">
-              <Link 
-                href="mailto:[SEU_EMAIL]"
+              <a 
+                href="mailto:rafael@email.com"
                 className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary/70 transition-colors"
               >
                 <div className="p-3 rounded-lg bg-primary/10">
@@ -74,13 +74,14 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">Email</p>
-                  <p className="text-sm text-muted-foreground">[SEU_EMAIL]</p>
+                  <p className="text-sm text-muted-foreground">rafael@email.com</p>
                 </div>
-              </Link>
+              </a>
 
-              <Link 
+              <a 
                 href="https://github.com/Lordymine"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary/70 transition-colors"
               >
                 <div className="p-3 rounded-lg bg-primary/10">
@@ -90,11 +91,12 @@ export function Contact() {
                   <p className="font-medium text-foreground">GitHub</p>
                   <p className="text-sm text-muted-foreground">github.com/Lordymine</p>
                 </div>
-              </Link>
+              </a>
 
-              <Link 
-                href="https://linkedin.com/in/[SEU_LINKEDIN]"
+              <a 
+                href="https://linkedin.com/in/rafael-oliveira"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-4 p-4 rounded-lg bg-secondary/50 hover:bg-secondary/70 transition-colors"
               >
                 <div className="p-3 rounded-lg bg-primary/10">
@@ -102,9 +104,9 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="font-medium text-foreground">LinkedIn</p>
-                  <p className="text-sm text-muted-foreground">[SEU_LINKEDIN]</p>
+                  <p className="text-sm text-muted-foreground">linkedin.com/in/rafael-oliveira</p>
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>

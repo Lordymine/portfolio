@@ -17,29 +17,31 @@ export function Footer() {
 
           {/* Social Links */}
           <div className="flex items-center gap-4">
-            <Link 
+            <a 
               href="https://github.com/Lordymine" 
               target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
               aria-label="GitHub"
             >
               <Github className="h-5 w-5" />
-            </Link>
-            <Link 
-              href="https://linkedin.com/in/[SEU_LINKEDIN]" 
+            </a>
+            <a 
+              href="https://linkedin.com/in/rafael-oliveira" 
               target="_blank"
+              rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
               aria-label="LinkedIn"
             >
               <Linkedin className="h-5 w-5" />
-            </Link>
-            <Link 
-              href="mailto:[SEU_EMAIL]"
+            </a>
+            <a 
+              href="mailto:rafael@email.com"
               className="text-muted-foreground hover:text-foreground transition-colors"
               aria-label="Email"
             >
               <Mail className="h-5 w-5" />
-            </Link>
+            </a>
           </div>
         </div>
       </div>

@@ -90,16 +90,16 @@ export function Projects() {
                 </div>
                 <div className="flex gap-3 mt-auto">
                   <Button asChild variant="outline" size="sm" className="flex-1">
-                    <Link href={project.github} target="_blank">
+                    <a href={project.github} target="_blank" rel="noopener noreferrer">
                       <Github className="h-4 w-4 mr-2" />
                       Code
-                    </Link>
+                    </a>
                   </Button>
                   <Button asChild size="sm" className="flex-1">
-                    <Link href={project.demo} target="_blank">
+                    <a href={project.demo} target="_blank" rel="noopener noreferrer">
                       <ExternalLink className="h-4 w-4 mr-2" />
                       Demo
-                    </Link>
+                    </a>
                   </Button>
                 </div>
               </CardContent>

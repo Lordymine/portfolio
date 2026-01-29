@@ -54,10 +54,10 @@ export function Header() {
               </Button>
             ))}
             <Button asChild variant="outline" size="sm" className="ml-4">
-              <Link href="https://github.com/Lordymine" target="_blank">
+              <a href="https://github.com/Lordymine" target="_blank" rel="noopener noreferrer">
                 <Github className="h-4 w-4 mr-2" />
                 GitHub
-              </Link>
+              </a>
             </Button>
           </nav>
 
@@ -92,10 +92,10 @@ export function Header() {
                 </Button>
               ))}
               <Button asChild variant="outline" className="mt-2">
-                <Link href="https://github.com/Lordymine" target="_blank">
+                <a href="https://github.com/Lordymine" target="_blank" rel="noopener noreferrer">
                   <Github className="h-4 w-4 mr-2" />
                   GitHub
-                </Link>
+                </a>
               </Button>
             </nav>
           </div>
